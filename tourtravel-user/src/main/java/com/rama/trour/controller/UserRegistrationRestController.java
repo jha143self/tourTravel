@@ -1,6 +1,12 @@
 package com.rama.trour.controller;
 
 import com.google.common.base.Strings;
+import com.rama.trour.model.User;
+import com.rama.trour.model.UserRegistrationResource;
+import com.rama.trour.service.UserService;
+import com.rama.api._internal.RestApiConstants;
+import com.rama.api.model.UserRegistrationApiData;
+import com.rama.api.resources.UserRegistrationsResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.RepositoryLinksResource;
 import org.springframework.hateoas.*;

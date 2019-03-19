@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		        <start-class>com.rama.trour.TourtravelUserApplication</start-class>
+		
 	</properties>
 
 	<dependencies>
@@ -44,6 +46,10 @@
                 <artifactId>spring-hateoas</artifactId>
                 
             </dependency>
+           <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>
            <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>

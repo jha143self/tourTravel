@@ -10,7 +10,8 @@ import org.springframework.data.rest.core.annotation.RestResource;
 import com.rama.trour.model.User;
 
 import java.util.List;
-
+import com.rama.api._internal.RestApiConstants;
+import com.rama.api._internal.RestApiConstants;
 /**
  * @author Rakesh Jha
  */
